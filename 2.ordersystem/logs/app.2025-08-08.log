@@ -1,0 +1,120 @@
+2025-08-220 16:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-220 16:29 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 23.0.2 with PID 74112 (/Users/purewa/Desktop/Pratice/ordersystem/build/classes/java/main started by purewa in /Users/purewa/Desktop/Pratice/ordersystem)
+2025-08-220 16:29 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-220 16:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-220 16:29 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-220 16:29 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-220 16:29 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-220 16:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-220 16:29 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 765 ms
+2025-08-220 16:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-220 16:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-220 16:29 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-220 16:29 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-220 16:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-220 16:29 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@51c008fd
+2025-08-220 16:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-220 16:29 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-220 16:29 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-220 16:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-220 16:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-220 16:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-220 16:29 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 371728ae-f410-4a69-a8f6-3435239333c9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-220 16:29 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-220 16:29 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-220 16:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-220 16:29 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-220 16:29 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#30dabb23:0/SimpleConnection@1f953288 [delegate=amqp://guest@127.0.0.1:5672/, localPort=60219]
+2025-08-220 16:29 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.318 seconds (process running for 3.612)
+2025-08-220 16:29 i.l.core.protocol.ConnectionWatchdog-Reconnecting, last destination was localhost/127.0.0.1:6379
+2025-08-220 16:29 i.l.core.protocol.ConnectionWatchdog-Reconnecting, last destination was localhost/127.0.0.1:6379
+2025-08-220 16:29 i.l.core.protocol.ConnectionWatchdog-Cannot reconnect to [localhost/<unresolved>:6379]: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-220 16:29 i.l.core.protocol.ConnectionWatchdog-Cannot reconnect to [localhost/<unresolved>:6379]: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-220 16:29 i.l.c.protocol.ReconnectionHandler-Reconnected to localhost/<unresolved>:6379
+2025-08-220 16:29 i.l.c.protocol.ReconnectionHandler-Reconnected to localhost/<unresolved>:6379
+2025-08-220 16:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-220 16:29 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-220 16:29 o.s.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-220 16:29 c.b.o.c.s.CommonExceptionHandler-비밀번호가 너무 짧습니다.
+2025-08-220 16:30 c.b.o.c.s.CommonExceptionHandler-이메일이 비어있습니다.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@51c008fd ((conn=254) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@128fb9f3 ((conn=255) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@3f88778d ((conn=256) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@7a126d7e ((conn=257) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@9f4329d ((conn=258) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@665b5271 ((conn=259) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@1a936528 ((conn=260) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@73838299 ((conn=261) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@5b4b36ae ((conn=262) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 com.zaxxer.hikari.pool.PoolBase-HikariPool-1 - Failed to validate connection org.mariadb.jdbc.Connection@67bf3f6c ((conn=263) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.
+2025-08-220 16:30 c.b.o.c.s.CommonExceptionHandler-중복되는 이메일입니다.
+2025-08-220 16:31 c.b.o.c.s.CommonExceptionHandler-중복되는 이메일입니다.
+2025-08-220 16:31 c.b.o.c.s.CommonExceptionHandler-중복되는 이메일입니다.
+2025-08-220 16:37 c.b.o.c.s.CommonExceptionHandler-중복되는 이메일입니다.
+2025-08-220 16:44 c.b.o.c.s.CommonExceptionHandler-비밀번호가 너무 짧습니다.
+2025-08-220 16:44 c.b.o.c.s.CommonExceptionHandler-비밀번호가 너무 짧습니다.
+2025-08-220 17:07 c.b.o.c.s.CommonExceptionHandler-중복되는 이메일입니다.
+2025-08-220 17:08 c.b.o.c.s.CommonExceptionHandler-비밀번호가 너무 짧습니다.
+2025-08-220 17:13 c.b.o.c.s.CommonExceptionHandler-비밀번호가 틀렸습니다.
+2025-08-220 17:41 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s543ms).
+2025-08-220 18:26 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m40s41ms).
+2025-08-220 19:23 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m3s12ms).
+2025-08-220 20:36 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m37s745ms).
+2025-08-220 21:47 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m41s105ms).
+2025-08-220 22:48 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m6s554ms).
+2025-08-220 23:20 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m40s907ms).
+2025-08-220 23:49 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m12s810ms).

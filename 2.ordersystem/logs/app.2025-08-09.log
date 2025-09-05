@@ -1,0 +1,8 @@
+2025-08-221 00:27 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m25s63ms).
+2025-08-221 00:27 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-221 00:27 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-221 00:27 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-221 00:27 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-221 00:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-221 00:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-221 00:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

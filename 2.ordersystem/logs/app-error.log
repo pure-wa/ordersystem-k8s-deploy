@@ -1,0 +1,14 @@
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:01Z, a difference of 22234505 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:05Z, a difference of 22238734 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:07Z, a difference of 22240352 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:07Z, a difference of 22240352 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:07Z, a difference of 22240377 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:07Z, a difference of 22240377 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:07Z, a difference of 22240378 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-13T18:25:27Z. Current time: 2025-08-14T00:36:07Z, a difference of 22240378 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-226 09:36 c.b.o.c.s.CommonExceptionHandler-잘못된 토큰입니다.
+2025-08-226 09:36 c.b.o.c.s.CommonExceptionHandler-잘못된 토큰입니다.
